@@ -2,6 +2,15 @@ html, body {
   height: 100%;
 }
 
+strong {
+	font-weight:600;
+}
+
+u {
+	text-decoration: none;
+	border-bottom: 1px solid #b7b7b7;
+}
+
 header {
 	padding:20px;
 	position:absolute;
@@ -10,13 +19,44 @@ header {
 	width:100%;
 
 	.mobile-menu {
+		position:absolute;
+		top:50%;
+		margin-top:-10px;
+		right:20px;
+		height:20px;
+		width:20px;
+		cursor:pointer;
 
+		.hamburger,
+		&:before,
+		&:after {
+			height: 4px;
+			width: 100%;
+			background: #362f2d;
+			display: block;
+			position: absolute;
+		}
+
+		.hamburger {
+			top: 50%;
+			margin-top: -2px;
+		}
+
+		&:before {
+			content:'';
+			top:0;
+		}
+
+		&:after {
+			content:'';
+			bottom:0;
+		}
 	}
 
 	.logo {
 		.helvetica;
-		font-size:24px;
-		line-height:24px;
+		font-size:20px;
+		line-height:20px;
 		letter-spacing:2px;
 		font-weight:600;
 		color:#362f2d;
@@ -26,6 +66,7 @@ header {
 #wrap {
 	min-height: 100%;
   	margin-bottom: -73px;
+  	max-width:980px;
 
   	&:after {
   		content: "";
@@ -35,7 +76,7 @@ header {
 }
 
 .main {
-	padding:64px 20px 0 20px;
+	padding:60px 20px 0 20px;
 
 	h2 {
 		.helvetica;
@@ -54,6 +95,11 @@ header {
 		font-size:12px;
 		line-height:1.6;
 		color:#707070;
+
+		.key {
+			width: 140px;
+			display: inline-block;
+		}
 
 		a {
 			color:inherit;
@@ -83,6 +129,17 @@ header {
 		+ * {
 			margin-top:20px;
 		}
+	}
+
+	.year {
+		width: 80px;
+		display: inline-block;
+		float: left;
+		text-align: center;
+	}
+
+	.exhibitions {
+		padding-left:80px;
 	}
 
 	.column + .column {

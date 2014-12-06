@@ -42,7 +42,9 @@
 	<body <?php body_class(); ?>>
 
 		<header class="header">
-			<div class="mobile-menu"></div>
+			<div class="mobile-menu">
+				<span class="hamburger"></span>
+			</div>
 			<div class="logo">Marla Hernandez</div>
 		</header>
 

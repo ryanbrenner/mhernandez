@@ -1,0 +1,889 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"4px",
+				"40px"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 327.0,
+		"selected_items":
+		[
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez"
+	],
+	"file_history":
+	[
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Permission/PermissionServiceServiceProvider.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/repositories/Permission/PermissionRepositoryServiceProvider.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/predis/predis/lib/Predis/PredisException.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/package.json",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/dashboard/roles/roles.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Auth/Guard.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/public/js/scripts.js",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/public/less/_base.less",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/User/UserService.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/repositories/User/UserRepository.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Routing/Controller.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/css-opacity.json",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/composer.json",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/Gruntfile.js",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/dashboard/footer.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/login/login.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/controllers/LoginController.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/public/js/login.js",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/filters.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/entities/Role.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/repositories/Role/RoleRepository.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/routes.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/controllers/DashboardController.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/controllers/SettingController.php",
+		"/Users/rbrenner/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/repositories/Setting/SettingRepository.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Setting/SettingService.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/sandbox/options.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/repositories/Account/AccountRepository.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/database/seeds/DatabaseSeeder.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/database/migrations/2014_11_26_222818_create_options_table.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/database/migrations/2014_11_27_002440_create_account_options_table.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/predis/predis/lib/Predis/ServerException.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/sandbox/statuses.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/config/app.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/database/migrations/2014_11_26_052222_create_statuses_table.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/entities/Status.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/bootstrap/start.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/nesbot/carbon/tests/SubTest.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/dashboard/settings/settings.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/entities/Setting.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/predis/predis/tests/Predis/Command/HashSetTest.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/nesbot/carbon/tests/StartEndOfTest.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/server.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Account/AccountService.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/controllers/AccountController.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/entities/Account.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/repositories/Account/AccountInterface.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/entities/Option.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/entities/Error.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/sandbox/errors.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/repositories/Setting/SettingRepositoryServiceProvider.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/repositories/Setting/SettingInterface.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Setting/SettingServiceServiceProvider.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Setting/SettingFacade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/node_modules/grunt-contrib-less/node_modules/less/node_modules/mkdirp/node_modules/minimist/test/dash.js",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Queue/Failed/DatabaseFailedJobProvider.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/storage/sessions/e43e9ef8cc0f373507ff2807bbee353bf447b9f3",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/node_modules/grunt-contrib-less/node_modules/less/node_modules/clean-css/lib/selectors/empty-removal.js",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/parse-error-curly-bracket.less",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/filp/whoops/src/Whoops/Exception/ErrorException.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Event/GetResponseForControllerResultEvent.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Error/ErrorServiceServiceProvider.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Error/ErrorService.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Error/ErrorFacade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/database/migrations/2014_11_26_034432_create_errors_table.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/database/migrations/2014_11_11_033955_create_permission_relationships.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/database/migrations/2014_11_26_035208_create_objects_table.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/database/migrations/2014_11_17_230853_create_password_reminders_table.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Session/Store.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Session/CacheBasedSessionHandler.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Session/SessionInterface.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Session/SessionServiceProvider.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Session/ExistenceAwareInterface.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/symfony/translation/Symfony/Component/Translation/Loader/IniFileLoader.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/public/index.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/config/auth.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/definition_astext.txt",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/_notes/dwsync.xml",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/dashboard/roles/add.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/dashboard/users/users.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/dashboard/users/add.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/dashboard/roles.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/header.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/footer.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/controllers/Setting\nSettingController.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/dashboard/users.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/controllers/RoleController.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Role/RoleService.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/controllers/SystemController.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/database/migrations/2014_11_10_230342_create_roles_table.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/repositories/Role/RoleRepositoryServiceProvider.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/symfony/http-foundation/Symfony/Component/HttpFoundation/Tests/BinaryFileResponseTest.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/predis/predis/tests/Predis/Protocol/Text/ResponseIntegerHandlerTest.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/predis/predis/tests/Predis/Protocol/Text/ResponseStatusHandlerTest.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/controllers/UserController.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/public/css/style.css",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/dashboard/users/roles.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/swiftmailer/swiftmailer/doc/headers.rst",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/predis/predis/lib/Predis/Command/HashExists.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/hello.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Role/RoleServiceServiceProvider.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/controllers/BaseController.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Controller/TraceableControllerResolver.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/symfony/console/Symfony/Component/Console/Event/ConsoleCommandEvent.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Role/RoleFacade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/account.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/views/login.blade.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Session/SessionManager.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Session/Console/SessionTableCommand.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/config/session.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/predis/predis/lib/Predis/Command/ServerEvalSHA.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/config/services.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/public/less/_mixins.less",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/nikic/php-parser/lib/PHPParser/BuilderAbstract.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/bin/boris",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/entities/User.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/config/mail.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Auth/Reminders/PasswordBroker.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/controllers/RemindersController.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/node_modules/grunt-contrib-less/node_modules/less/test/css/mixins-args.css",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Support/Facades/Password.php",
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/symfony/finder/Symfony/Component/Finder/Adapter/PhpAdapter.php"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"_new",
+			"type",
+			"cat",
+			"source",
+			"id",
+			"button",
+			"status",
+			"Error",
+			"errorInfo",
+			"errors",
+			"Error",
+			"status",
+			"statuses",
+			"error",
+			"errors",
+			"error",
+			"Error",
+			"error",
+			"statuses",
+			"Statuses",
+			"statuses",
+			"Error",
+			"User",
+			"name",
+			"$error",
+			"name",
+			"Name",
+			"name",
+			"User",
+			"Status",
+			"Role",
+			"user",
+			"username",
+			"userInfo",
+			"account",
+			"function head(",
+			"head",
+			"function getRecallerId(",
+			"getRecallerId()",
+			"getRecallerId();",
+			"function get(",
+			"get(",
+			"die",
+			"getName",
+			"id()",
+			"getRecallerId",
+			"id()",
+			"function getName",
+			"getName",
+			"function id(",
+			"sidebar",
+			"AccountController",
+			"index",
+			"($",
+			"description",
+			"table_cell",
+			"table-cell",
+			"user_action",
+			"$user",
+			"transform:tr",
+			"transform",
+			"trans",
+			"-webkit-tran",
+			"-webkit",
+			"appear",
+			"-webkit-appear",
+			"appear",
+			"webkit-app",
+			"webkit",
+			"submit",
+			"button",
+			"noti",
+			"account_id",
+			"email",
+			"userInfo",
+			"warning",
+			"array_get",
+			"center_",
+			"die",
+			"DB",
+			"table_header__cell",
+			"Quick",
+			"Filter",
+			"></",
+			"Users",
+			"orders",
+			"Orders",
+			"die",
+			"inactive",
+			"die",
+			"echo",
+			"getUserPermission",
+			"checkUserPerm",
+			"echo",
+			"$user",
+			"checkuserpermissions",
+			"Session",
+			"has",
+			"arrya",
+			"permission",
+			"(!$",
+			"permission",
+			"userPermissions",
+			"($",
+			"die",
+			"permissions",
+			"($",
+			"getPermissionsBy",
+			"PermissionsBy",
+			"user",
+			"permission",
+			"response",
+			"function id(",
+			"fillable",
+			"isFillable",
+			"user",
+			"function create(",
+			"function create",
+			"fill(",
+			"function create",
+			"static",
+			"function create",
+			"create",
+			"logout",
+			"function user()",
+			"refreshRemember",
+			"userTrait",
+			"function getKey()"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": true,
+		"regex": false,
+		"replace_history":
+		[
+			"option",
+			"statusInfo",
+			"statuses",
+			"option",
+			"options",
+			"statuses",
+			"options",
+			"statuses",
+			"status",
+			"option",
+			"setting",
+			"error",
+			"description",
+			"roleInfo",
+			"table_cell",
+			"role",
+			"account",
+			"permission",
+			"permissionName",
+			"permission",
+			"shipping",
+			"permission",
+			"shipping",
+			"src=\"' . $this->imgpath . 'images",
+			"src=\"' . $this->imgpath . '",
+			"img src=\"' . $this->imgpath . 'images",
+			"max",
+			"",
+			"current",
+			"(max_files - 1)",
+			"credit",
+			"shipping",
+			"billing",
+			"div",
+			"span",
+			"div",
+			"is_empty",
+			"build-bar-list",
+			"build-bar-list_single",
+			"",
+			"header-cart_",
+			"Athlete",
+			"Sponsorship",
+			"sponsorships"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"project": "mhernandez.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"permissionrepo",
+				"app/models/repositories/Permission/PermissionRepository.php"
+			],
+			[
+				"users.blade",
+				"app/views/dashboard/users/users.blade.php"
+			],
+			[
+				"dashboard",
+				"app/controllers/DashboardController.php"
+			],
+			[
+				"controller",
+				"app/controllers/UserController.php"
+			],
+			[
+				"guard",
+				"vendor/laravel/framework/src/Illuminate/Auth/Guard.php"
+			],
+			[
+				"login.blade",
+				"app/views/login/login.blade.php"
+			],
+			[
+				"login.",
+				"app/views/login/login.blade.php"
+			],
+			[
+				"footer.",
+				"app/views/dashboard/footer.blade.php"
+			],
+			[
+				"role.blade",
+				"app/views/dashboard/roles/roles.blade.php"
+			],
+			[
+				"settingservice",
+				"app/models/services/Setting/SettingService.php"
+			],
+			[
+				"accountrepo",
+				"app/models/repositories/Account/AccountRepository.php"
+			],
+			[
+				"settingrepo",
+				"app/models/repositories/Setting/SettingRepository.php"
+			],
+			[
+				"statuse",
+				"app/views/sandbox/statuses.blade.php"
+			],
+			[
+				"setting.blade",
+				"app/views/dashboard/settings/settings.blade.php"
+			],
+			[
+				"routes",
+				"app/routes.php"
+			],
+			[
+				"accountservice",
+				"app/models/services/Account/AccountService.php"
+			],
+			[
+				"userrepo",
+				"app/models/repositories/User/UserRepository.php"
+			],
+			[
+				"accountre",
+				"app/models/repositories/Account/AccountRepository.php"
+			],
+			[
+				"/illuminate/session/store",
+				"vendor/laravel/framework/src/Illuminate/Session/Store.php"
+			],
+			[
+				"auth",
+				"vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php"
+			],
+			[
+				"dashboardcon",
+				"app/controllers/DashboardController.php"
+			],
+			[
+				"route",
+				"app/routes.php"
+			],
+			[
+				"header",
+				"app/views/header.blade.php"
+			],
+			[
+				"roleservice",
+				"app/models/services/Role/RoleService.php"
+			],
+			[
+				"rolerepos",
+				"app/models/repositories/Role/RoleRepository.php"
+			],
+			[
+				"rolecontr",
+				"app/controllers/RoleController.php"
+			],
+			[
+				"accountcontroller",
+				"app/controllers/AccountController.php"
+			],
+			[
+				"gruntfile",
+				"Gruntfile.js"
+			],
+			[
+				"userservice",
+				"app/models/services/User/UserService.php"
+			],
+			[
+				"usercontroller",
+				"app/controllers/UserController.php"
+			],
+			[
+				"rolerepo",
+				"app/models/repositories/Role/RoleRepository.php"
+			],
+			[
+				"accountcontr",
+				"app/controllers/AccountController.php"
+			],
+			[
+				"logincontro",
+				"app/controllers/LoginController.php"
+			],
+			[
+				"session/store",
+				"vendor/laravel/framework/src/Illuminate/Session/Store.php"
+			],
+			[
+				"session",
+				"vendor/laravel/framework/src/Illuminate/Session/SessionManager.php"
+			],
+			[
+				"app/config/session.php",
+				"app/config/session.php"
+			],
+			[
+				"login",
+				"app/views/login.blade.php"
+			],
+			[
+				"usercontroll",
+				"app/controllers/UserController.php"
+			],
+			[
+				"mixins",
+				"public/less/_mixins.less"
+			],
+			[
+				"base.less",
+				"public/less/_base.less"
+			],
+			[
+				"mailer",
+				"vendor/laravel/framework/src/Illuminate/Mail/Mailer.php"
+			],
+			[
+				"password",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Password.php"
+			],
+			[
+				"",
+				"app/controllers/RemindersController.php"
+			],
+			[
+				"passwordbroker",
+				"vendor/laravel/framework/src/Illuminate/Auth/Reminders/PasswordBroker.php"
+			],
+			[
+				"account.blade",
+				"app/views/account.blade.php"
+			],
+			[
+				"softdeleting",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/SoftDeletingTrait.php"
+			],
+			[
+				"app.",
+				"app/config/app.php"
+			],
+			[
+				"roleserviceser",
+				"app/models/services/Role/RoleServiceServiceProvider.php"
+			],
+			[
+				"permissionservice",
+				"app/models/services/Permission/PermissionServiceServiceProvider.php"
+			],
+			[
+				"auth.php",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php"
+			],
+			[
+				"model",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"eloquent",
+				"vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php"
+			],
+			[
+				"eloquent/model",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"user.blade",
+				"app/views/user.blade.php"
+			],
+			[
+				"auth/gar",
+				"vendor/laravel/framework/src/Illuminate/Auth/Guard.php"
+			],
+			[
+				"userinterface",
+				"vendor/laravel/framework/src/Illuminate/Auth/UserInterface.php"
+			],
+			[
+				"eloquentuser",
+				"vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php"
+			],
+			[
+				"eloquentuserprovider",
+				"vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php"
+			],
+			[
+				"auth/userinterface",
+				"vendor/laravel/framework/src/Illuminate/Auth/UserInterface.php"
+			],
+			[
+				"eloquenuserp",
+				"vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php"
+			],
+			[
+				"user.php",
+				"app/models/entities/User.php"
+			],
+			[
+				"userfacade",
+				"app/models/services/User/UserFacade.php"
+			],
+			[
+				"eloquent/modle",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"userprovider",
+				"vendor/laravel/framework/src/Illuminate/Auth/UserProviderInterface.php"
+			],
+			[
+				"guard.php",
+				"vendor/laravel/framework/src/Illuminate/Auth/Guard.php"
+			],
+			[
+				"logincontroller",
+				"app/controllers/LoginController.php"
+			],
+			[
+				"eloquentuserp",
+				"vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php"
+			],
+			[
+				"facade.php",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php"
+			],
+			[
+				"usertrait",
+				"vendor/laravel/framework/src/Illuminate/Auth/UserTrait.php"
+			],
+			[
+				"functions",
+				"functions.php"
+			],
+			[
+				"store.js",
+				"library/js/store.js"
+			],
+			[
+				"checkout.js",
+				"library/js/checkout.js"
+			],
+			[
+				"base",
+				"library/less/_base.less"
+			],
+			[
+				"custombox",
+				"library/includes/store/classes/CustomBox.php"
+			],
+			[
+				"custombox.",
+				"library/includes/store/classes/CustomBox.php"
+			],
+			[
+				"box.php",
+				"library/includes/store/classes/Box.php"
+			],
+			[
+				"store.php",
+				"library/includes/store/Store.php"
+			],
+			[
+				"600",
+				"library/less/_600up.less"
+			],
+			[
+				"768",
+				"library/less/_768up.less"
+			],
+			[
+				"960",
+				"library/less/_960up.less"
+			],
+			[
+				"home",
+				"template-home.php"
+			],
+			[
+				"12",
+				"library/less/_1240up.less"
+			],
+			[
+				"150",
+				"library/less/_1500up.less"
+			],
+			[
+				"1030",
+				"library/less/_1030up.less"
+			],
+			[
+				"template-store",
+				"template-store.php"
+			],
+			[
+				"2x",
+				"library/less/_2x.less"
+			],
+			[
+				"template-home",
+				"template-home.php"
+			],
+			[
+				"mixin",
+				"library/less/_mixins.less"
+			],
+			[
+				"functino",
+				"functions.php"
+			],
+			[
+				"mixi",
+				"library/less/_mixins.less"
+			],
+			[
+				"function",
+				"functions.php"
+			],
+			[
+				"functin",
+				"functions.php"
+			],
+			[
+				"filter",
+				"library/includes/filter-bars.php"
+			],
+			[
+				"481",
+				"library/less/_481up.less"
+			],
+			[
+				"cart",
+				"template-cart.php"
+			],
+			[
+				"custom",
+				"library/includes/custom-post-types.php"
+			],
+			[
+				"contact",
+				"library/js/contact.js"
+			],
+			[
+				"story",
+				"template-story.php"
+			],
+			[
+				"shop",
+				"template-store.php"
+			],
+			[
+				"includes/",
+				"library/includes/filter-bars.php"
+			],
+			[
+				"temp",
+				"template-store.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

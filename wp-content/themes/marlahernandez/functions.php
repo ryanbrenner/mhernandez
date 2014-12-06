@@ -73,26 +73,6 @@ if ( ! isset( $content_width ) ) {
 add_image_size( 'bones-thumb-600', 600, 150, true );
 add_image_size( 'bones-thumb-300', 300, 100, true );
 
-/*
-to add more sizes, simply copy a line from above
-and change the dimensions & name. As long as you
-upload a "featured image" as large as the biggest
-set width or height, all the other sizes will be
-auto-cropped.
-
-To call a different size, simply change the text
-inside the thumbnail function.
-
-For example, to call the 300 x 100 sized image,
-we would use the function:
-<?php the_post_thumbnail( 'bones-thumb-300' ); ?>
-for the 600 x 150 image:
-<?php the_post_thumbnail( 'bones-thumb-600' ); ?>
-
-You can change the names and dimensions to whatever
-you like. Enjoy!
-*/
-
 add_filter( 'image_size_names_choose', 'bones_custom_image_sizes' );
 
 function bones_custom_image_sizes( $sizes ) {
@@ -101,30 +81,6 @@ function bones_custom_image_sizes( $sizes ) {
         'bones-thumb-300' => __('300px by 100px'),
     ) );
 }
-
-/*
-The function above adds the ability to use the dropdown menu to select
-the new images sizes you have just created from within the media manager
-when you add media to your content blocks. If you add more image sizes,
-duplicate one of the lines in the array and name it according to your
-new image size.
-*/
-
-/************* THEME CUSTOMIZE *********************/
-
-/* 
-  A good tutorial for creating your own Sections, Controls and Settings:
-  http://code.tutsplus.com/series/a-guide-to-the-wordpress-theme-customizer--wp-33722
-  
-  Good articles on modifying the default options:
-  http://natko.com/changing-default-wordpress-theme-customization-api-sections/
-  http://code.tutsplus.com/tutorials/digging-into-the-theme-customizer-components--wp-27162
-  
-  To do:
-  - Create a js for the postmessage transport method
-  - Create some sanitize functions to sanitize inputs
-  - Create some boilerplate Sections, Controls and Settings
-*/
 
 function bones_theme_customizer($wp_customize) {
   // $wp_customize calls go here.
@@ -143,6 +99,34 @@ function bones_theme_customizer($wp_customize) {
   // Uncomment the following to change the default section titles
   // $wp_customize->get_section('colors')->title = __( 'Theme Colors' );
   // $wp_customize->get_section('background_image')->title = __( 'Images' );
+}
+
+function yearSort($data) {
+  $h = '';
+  $years = array();
+  foreach ($data as $d) {
+    $years[] = $d['year'];
+  }
+  $years = array_unique($years);
+  foreach ($years as $y) {
+    $sort[$y] = array();
+  }
+  foreach ($data as $d) {
+    $sort[$d['year']][] = $d['exhibition'];
+  }
+  foreach (array_reverse($sort, true) as $index => $year) {
+    $count = 1;
+    $h .= '<p class="year">' . $index . '</p><p class="exhibitions">';
+    foreach ($year as $y) {
+      $h .= $y;
+      if ($count != count($year)) {
+        $h .= '<br />';
+      }
+      $count++;
+    }
+    $h .= '</p>';
+  }
+  return $h;
 }
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
