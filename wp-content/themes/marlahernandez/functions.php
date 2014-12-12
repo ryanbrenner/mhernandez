@@ -71,7 +71,9 @@ if ( ! isset( $content_width ) ) {
 
 // Thumbnail sizes
 add_image_size( 'exhibition-image', 460, 680, true );
-add_image_size( 'news-image', 460, 300, false );
+add_image_size( 'news-image', 460, 300, true );
+add_image_size( 'news-bg', 1500, 1070, true );
+
 
 function bones_theme_customizer($wp_customize) {
   // $wp_customize calls go here.

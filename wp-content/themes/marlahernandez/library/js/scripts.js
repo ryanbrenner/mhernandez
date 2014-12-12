@@ -51,4 +51,40 @@ jQuery(document).ready(function($) {
     $('body').toggleClass('menu_active');
   });
 
+  $('.news_expand').on('click', function(e) {
+  	e.preventDefault();
+  	$('#wrap').addClass('news_active');
+  	$this = $(this);
+  	$list = $this.closest('.news_single');
+  	$container = $list.find('.news_expanded__container');
+  	$container.css({
+  		opacity: 0,
+  		display:'table',
+  	}).animate({
+  		opacity: 1
+  	}, 350, function() {
+  		$list.addClass('is_expanded');
+  		$container.css({
+  			opacity:'',
+  			display:''
+  		});
+  	});
+  });
+
+  $('.news_close').on('click', function(e) {
+  	e.preventDefault();
+  	$this = $(this);
+  	$list = $this.closest('.news_single');
+  	$container = $list.find('.news_expanded__container');
+  	$container.animate({
+  		opacity: 0
+  	}, 350, function() {
+  		$container.css({
+  			opacity:''
+  		});
+  		$list.removeClass('is_expanded');
+  		$('#wrap').removeClass('news_active');
+  	});
+  });
+
 }); /* end of as page load scripts */

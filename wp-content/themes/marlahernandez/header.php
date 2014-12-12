@@ -61,4 +61,4 @@
 			?>
 		</div>
 
-		<div id="wrap">
+		<div id="wrap"<?php if (is_front_page()) { echo ' class="news_active"'; } ?>>
