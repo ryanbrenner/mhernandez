@@ -1,5 +1,13 @@
 html, body {
   height: 100%;
+  overflow-x:hidden;
+}
+
+.menu_active {
+
+	#wrap {
+		left:100%;
+	}
 }
 
 strong {
@@ -17,6 +25,8 @@ header {
 	top:0;
 	left:0;
 	width:100%;
+	z-index:3;
+	background:#fff;
 
 	.mobile-menu {
 		position:absolute;
@@ -60,6 +70,42 @@ header {
 		letter-spacing:2px;
 		font-weight:600;
 		color:#362f2d;
+		transition:letter-spacing .35s;
+	}
+}
+
+.nav {
+	position:absolute;
+	top:60px;
+	left:0;
+	width:100%;
+	padding:0 20px 20px 20px;
+	background:#fff;
+	z-index:1;
+
+	.menu {
+
+		li {
+
+			a {
+				.helvetica;
+				color:#707070;
+				font-size:14px;
+				font-weight:600;
+				text-decoration:none;
+			}
+
+			+ li {
+				margin-top:10px;
+			}
+
+			&.current-menu-item {
+
+				a {
+					color:#000;
+				}
+			}
+		}
 	}
 }
 
@@ -67,6 +113,11 @@ header {
 	min-height: 100%;
   	margin-bottom: -73px;
   	max-width:980px;
+	position:relative;
+	z-index:2;
+	transition:left .35s cubic-bezier(.33,0,.2,1);
+	left:0;
+	background:#fff;
 
   	&:after {
   		content: "";
@@ -84,6 +135,19 @@ header {
 		font-size:14px;
 		line-height:1.2;
 		color:#000000;
+
+		+ * {
+			margin-top:24px;
+		}
+	}
+
+	h3 {
+		.helvetica;
+		font-weight:600;
+		font-size:13px;
+		line-height:1.2;
+		color:#707070;
+		text-decoration:underline;
 
 		+ * {
 			margin-top:24px;
@@ -147,6 +211,46 @@ header {
 	}
 }
 
+.exhibition_single {
+
+	.exhibition_title {
+		.helvetica;
+		font-size:12px;
+		line-height:1.2;
+		margin-bottom:4px;
+		color:#000;
+		font-weight:600;
+		display:block;
+	}
+
+	.exhibition_location {
+		.helvetica;
+		font-size:12px;
+		line-height:1.2;
+		margin-bottom:4px;
+		color:#707070;
+		display:block;
+	}
+
+	.exhibition_date {
+		.helvetica;
+		font-size:12px;
+		line-height:1.2;
+		margin-bottom:24px;
+		color:#707070;
+		display:block;
+	}
+
+	.exhibition_image {
+
+		img {
+			height:auto;
+			max-width:100%;
+			display:block;
+		}
+	}
+}
+
 .header-image {
 	margin-bottom:32px;
 
@@ -162,6 +266,8 @@ header {
 footer {
 	height:73px;
 	padding:20px;
+	position:relative;
+	z-index:3;
 
 	.copyright {
 		.helvetica;

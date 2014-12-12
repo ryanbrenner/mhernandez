@@ -1,26 +1,29 @@
-.col2 {
-	font-size:0;
+.main {
+	
+	.col2 {
+		font-size:0;
+
+		.column {
+			width:50%;
+		}
+	}
 
 	.column {
-		width:50%;
-	}
-}
+		display:inline-block;
+		vertical-align:top;
 
-.column {
-	display:inline-block;
-	vertical-align:top;
+		padding:0 10px;
 
-	padding:0 10px;
+		&:first-child {
+			padding: 0 10px 0 0;
+		}
 
-	&:first-child {
-		padding: 0 10px 0 0;
-	}
-
-	&:last-child {
-		padding:0 0 0 10px;
-	}
-	
-	+ .column {
-		margin-top:0;
+		&:last-child {
+			padding:0 0 0 10px;
+		}
+		
+		+ .column {
+			margin-top:0;
+		}
 	}
 }

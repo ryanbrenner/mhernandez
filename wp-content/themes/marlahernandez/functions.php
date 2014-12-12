@@ -70,17 +70,7 @@ if ( ! isset( $content_width ) ) {
 /************* THUMBNAIL SIZE OPTIONS *************/
 
 // Thumbnail sizes
-add_image_size( 'bones-thumb-600', 600, 150, true );
-add_image_size( 'bones-thumb-300', 300, 100, true );
-
-add_filter( 'image_size_names_choose', 'bones_custom_image_sizes' );
-
-function bones_custom_image_sizes( $sizes ) {
-    return array_merge( $sizes, array(
-        'bones-thumb-600' => __('600px by 150px'),
-        'bones-thumb-300' => __('300px by 100px'),
-    ) );
-}
+add_image_size( 'exhibition-image', 460, 680, true );
 
 function bones_theme_customizer($wp_customize) {
   // $wp_customize calls go here.
@@ -128,5 +118,13 @@ function yearSort($data) {
   }
   return $h;
 }
+
+// registering wp3+ menus
+register_nav_menus(
+  array(
+    'main-nav' => 'Main Navigation',
+    'secondary-nav' => 'Secondary Navigation',
+  )
+);
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

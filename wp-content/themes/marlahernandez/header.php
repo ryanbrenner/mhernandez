@@ -52,7 +52,7 @@
 			<?php
 				wp_nav_menu(array(
 					'theme_location' => 'main-nav',
-					'container' => 'main'
+					'container' => ''
 				));
 				wp_nav_menu(array(
 					'theme_location' => 'secondary-nav',
