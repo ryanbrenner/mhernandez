@@ -12,18 +12,34 @@
 	"buffers":
 	[
 		{
-			"file": "wp-content/themes/marlahernandez/template-about.php",
+			"file": "wp-content/themes/marlahernandez/functions.php",
 			"settings":
 			{
-				"buffer_size": 2045,
+				"buffer_size": 3759,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/marlahernandez/functions.php",
+			"file": "wp-content/themes/marlahernandez/template-news.php",
 			"settings":
 			{
-				"buffer_size": 3837,
+				"buffer_size": 120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marlahernandez/library/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 2827,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marlahernandez/library/less/_960up.less",
+			"settings":
+			{
+				"buffer_size": 331,
 				"line_ending": "Unix"
 			}
 		},
@@ -31,7 +47,7 @@
 			"file": "wp-content/themes/marlahernandez/library/less/_768up.less",
 			"settings":
 			{
-				"buffer_size": 246,
+				"buffer_size": 279,
 				"line_ending": "Unix"
 			}
 		},
@@ -39,7 +55,7 @@
 			"file": "wp-content/themes/marlahernandez/library/less/_base.less",
 			"settings":
 			{
-				"buffer_size": 2142,
+				"buffer_size": 5746,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +63,7 @@
 			"file": "wp-content/themes/marlahernandez/header.php",
 			"settings":
 			{
-				"buffer_size": 2197,
+				"buffer_size": 2255,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +71,31 @@
 			"file": "wp-content/themes/marlahernandez/library/less/_600up.less",
 			"settings":
 			{
-				"buffer_size": 99,
+				"buffer_size": 790,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marlahernandez/index.php",
+			"settings":
+			{
+				"buffer_size": 94,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marlahernandez/template-home.php",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/marlahernandez/section-news.php",
+			"settings":
+			{
+				"buffer_size": 2172,
 				"line_ending": "Unix"
 			}
 		}
@@ -109,10 +149,19 @@
 		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/wp-content/themes",
 		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/wp-content/themes/marlahernandez",
 		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/wp-content/themes/marlahernandez/library",
+		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/wp-content/themes/marlahernandez/library/js",
 		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/wp-content/themes/marlahernandez/library/less"
 	],
 	"file_history":
 	[
+		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/input-number.json",
+		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/wp-content/themes/marlahernandez/index.php",
+		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/wp-content/themes/marlahernandez/template-home.php",
+		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/node_modules/grunt-contrib-jshint/node_modules/jshint/src/style.js",
+		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/wp-content/themes/marlahernandez/style.css",
+		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/wp-content/themes/marlahernandez/single-custom_type.php",
+		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/node_modules/grunt/internal-tasks/subgrunt.js",
+		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/wp-content/themes/marlahernandez/template-about.php",
 		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/node_modules/grunt-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/font-unicode-range.json",
 		"/Users/rbrenner/Desktop/Projects/TCD/mhernandez/wp-content/themes/marlahernandez/footer.php",
 		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/services/Permission/PermissionServiceServiceProvider.php",
@@ -232,15 +281,7 @@
 		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/config/session.php",
 		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/predis/predis/lib/Predis/Command/ServerEvalSHA.php",
 		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/config/services.php",
-		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/public/less/_mixins.less",
-		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/nikic/php-parser/lib/PHPParser/BuilderAbstract.php",
-		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/bin/boris",
-		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/models/entities/User.php",
-		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/config/mail.php",
-		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Mail/Mailer.php",
-		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/vendor/laravel/framework/src/Illuminate/Auth/Reminders/PasswordBroker.php",
-		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/app/controllers/RemindersController.php",
-		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/node_modules/grunt-contrib-less/node_modules/less/test/css/mixins-args.css"
+		"/Users/rbrenner/Desktop/Projects/Client Folders/AKT/public/less/_mixins.less"
 	],
 	"find":
 	{
@@ -259,6 +300,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"73",
+			"nav",
+			"bezi",
+			"nav",
+			"wrap",
+			"location",
 			".logo",
 			"#wrap",
 			".year",
@@ -380,13 +427,7 @@
 			"user",
 			"function create(",
 			"function create",
-			"fill(",
-			"function create",
-			"static",
-			"function create",
-			"create",
-			"logout",
-			"function user()"
+			"fill("
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -448,24 +489,54 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "wp-content/themes/marlahernandez/template-about.php",
+					"file": "wp-content/themes/marlahernandez/functions.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2045,
+						"buffer_size": 3759,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1632,
-								1632
+								2213,
+								2213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 694.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/marlahernandez/template-news.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
 							]
 						],
 						"settings":
@@ -481,55 +552,204 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "wp-content/themes/marlahernandez/functions.php",
+					"buffer": 2,
+					"file": "wp-content/themes/marlahernandez/library/js/scripts.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3837,
+						"buffer_size": 2827,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3430,
-								3430
+								1642,
+								1642
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
+						"translation.x": 4.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "wp-content/themes/marlahernandez/library/less/_960up.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								309
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
 						"translation.x": 0.0,
-						"translation.y": 43.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 4,
 					"file": "wp-content/themes/marlahernandez/library/less/_768up.less",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 246,
+						"buffer_size": 279,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								246,
-								246
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage"
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "wp-content/themes/marlahernandez/library/less/_base.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1580,
+								1580
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1600.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "wp-content/themes/marlahernandez/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2247,
+								2247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "wp-content/themes/marlahernandez/library/less/_600up.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 790,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								705,
+								705
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "wp-content/themes/marlahernandez/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								70,
+								24
+							],
+							[
+								94,
+								94
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -539,49 +759,49 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "wp-content/themes/marlahernandez/library/less/_base.less",
+					"buffer": 9,
+					"file": "wp-content/themes/marlahernandez/template-home.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2142,
+						"buffer_size": 120,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1811,
-								1811
+								120,
+								120
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1643.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "wp-content/themes/marlahernandez/header.php",
+					"buffer": 10,
+					"file": "wp-content/themes/marlahernandez/section-news.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2197,
+						"buffer_size": 2172,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1868,
-								1868
+								551,
+								551
 							]
 						],
 						"settings":
@@ -594,35 +814,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "wp-content/themes/marlahernandez/library/less/_600up.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 99,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								82,
-								82
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -678,6 +869,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"index.",
+				"wp-content/themes/marlahernandez/index.php"
+			],
+			[
+				"960",
+				"wp-content/themes/marlahernandez/library/less/_960up.less"
+			],
+			[
+				"style",
+				"node_modules/grunt-contrib-jshint/node_modules/jshint/src/style.js"
+			],
 			[
 				"header",
 				"wp-content/themes/marlahernandez/header.php"
@@ -993,10 +1196,6 @@
 			[
 				"768",
 				"library/less/_768up.less"
-			],
-			[
-				"960",
-				"library/less/_960up.less"
 			],
 			[
 				"home",
