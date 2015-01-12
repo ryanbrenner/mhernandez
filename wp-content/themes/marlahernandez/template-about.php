@@ -25,10 +25,32 @@ get_header();
 			</div>
 			<div class="column">
 				<h2>/ Biography</h2>
-				<p><strong>Marla Hernandez</strong><br />Orlando, Florida<br />b. 1987<br /><a href="mailto:marlahernandez.art@gmail.com">marlahernandez.art@gmail.com</a></p>
+				<?php
+					echo get_field('information');
+				?>
 				<p><strong><u>Education</u></strong><br /><span class="key">2011 BFA Studio Art</span> <span class="tab">University of Central Florida</span><br /><span class="key">Major Specialization</span> <span class="tab">Photography</span><br /><span class="key">Minor Specialization</span> <span class="tab">Cinema Studies</span><br />
 				<?php
-					$bio = get_field('biography');
+					$bio = get_field('bio');
+					
+					if ($bio) {
+						
+						$html = '';
+						
+						foreach ($bio as $section) {
+							
+							if ($section['acf_fc_layout']	 == 'exhibitions') {
+								$html .= '<p><strong><u>' . $section['title'] . '</u></strong></p>';
+								$html .= yearSort($section['content']);
+							} else if ($section['acf_fc_layout']	 == 'text') {
+								$html .= '<span class="title"><strong><u>' . $section['title'] . '</u></strong></span><br />';
+								$html .= $section['content'];
+							}
+						}
+						
+						echo $html;
+					}
+					
+					/*
 					$solo = $bio[0]['solo_exhibitions'];
 					$group = $bio[0]['group_exhibitions'];
 					$awards = $bio[0]['awards'];
@@ -48,6 +70,7 @@ get_header();
 						$aCount++;
 					}
 					echo $html;
+					*/
 				?>
 			</div>
 		</div>

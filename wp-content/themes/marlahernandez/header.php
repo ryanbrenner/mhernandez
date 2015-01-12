@@ -45,7 +45,7 @@
 			<div class="mobile-menu">
 				<span class="hamburger"></span>
 			</div>
-			<div class="logo">Marla Hernandez</div>
+			<div class="logo"><a href="<?php bloginfo('url'); ?>">Marla Hernandez</a></div>
 		</header>
 
 		<div class="nav">
@@ -61,4 +61,4 @@
 			?>
 		</div>
 
-		<div id="wrap"<?php if (is_front_page()) { echo ' class="news_active"'; } ?>>
+		<div id="wrap">

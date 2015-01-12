@@ -1,5 +1,10 @@
 .main {
 	
+	iframe {
+		height:420px;
+		
+	}
+	
 	.col2 {
 		font-size:0;
 
@@ -14,16 +19,38 @@
 
 		padding:0 10px;
 
-		&:first-child {
-			padding: 0 10px 0 0;
-		}
-
 		&:last-child {
 			padding:0 0 0 10px;
+		}
+
+		&:first-child {
+			padding: 0 10px 0 0;
 		}
 		
 		+ .column {
 			margin-top:0;
 		}
+	}
+}
+
+.gallery_single {
+	
+	+ * {
+		margin-top:24px;	
+	}
+	
+	&.gallery_half {
+		width:50%;
+		display:inline-block;
+		padding-right:10px;
+		
+		iframe {
+			height:280px;	
+		}
+		
+		+ .gallery_half {
+			padding-right:0;
+			padding-left:10px;
+		}	
 	}
 }

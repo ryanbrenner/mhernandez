@@ -4,7 +4,11 @@
 		<h2>/ News</h2>
 		<div class="news_list">
 		<?php
-			$args = array('post_type' => 'news', 'posts_per_page' => 6);
+			$url = get_permalink();
+			$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+			$ppp = get_field('posts_per_page', 102);
+			$total_posts = wp_count_posts('news');
+			$args = array('post_type' => 'news', 'posts_per_page' => $ppp, 'paged' => $paged);
 			$news_query = new WP_Query($args);
 
 			if ($news_query->have_posts()) {
@@ -30,8 +34,8 @@
 							$html .= '<div class="news_expanded">';
 								$html .= '<div class="news_expanded__content">';
 									$html .= '<h2>' . $post->post_title . '</h2>';
-									if (get_field('description') != '') {
-										$html .= '<div class="news_description">';
+									if (get_field('description') != '') 
+			{							$html .= '<div class="news_description">';
 											$html .= get_field('description');
 										$html .= '</div>';
 									}
@@ -40,6 +44,8 @@
 									}
 									if (get_field('footer') != '') {
 										$html .= '<span class="news_footer">' . get_field('footer') . '</span>';
+									} else {
+										$html .= '<span class="news_footer"><span class="square">&#9632;</span> <span class="triangle">&#9650;</span> <span class="circle">&#9679;</span></span>';
 									}
 									$html .= '<div class="news_close"></div>';
 								$html .= '</div>';
@@ -50,11 +56,31 @@
 					$num++;
 				
 				}
+				
+				// pagination
+				if ($ppp < $total_posts->publish) {
+					$html .= '<div class="pagination">';
+						// prev page
+						if ($paged != 1) {
+							$html .= '<a href="' . $url . 'page/' . ($paged - 1) . '" class="paginate-prev" title="Previous Page">Previous</a>';
+						}
+						// pages
+						$html .= '<div class="paginate-pages">';
+						for ($x = 1; $x <= ($total_posts->publish / $ppp); $x++) {
+							$html .= '<a href="' . $url . 'page/' . $x . '" class="paginate-single' . ($x == $paged ? ' is_active' : '') . '">' . $x . '</a>';
+						}
+						$html .= '</div>';
+						// next page
+						if ($ppp * $paged < $total_posts->publish) {
+							$html .= '<a href="' . $url . 'page/' . ($paged + 1) . '" class="paginate-next" title="Next Page">Next</a>';
+						}
+					$html .= '</div>';
+				}
 
 				echo $html;
 
 			} else {
-				echo 'nothing';
+				echo '<p>No Results</p>';
 			}
 		?>
 		</div>

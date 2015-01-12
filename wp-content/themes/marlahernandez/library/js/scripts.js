@@ -87,4 +87,20 @@ jQuery(document).ready(function($) {
   	});
   });
 
+  $('.news_expanded__container').on('click', function(e) {
+    if (!$(e.target).is('.news_expanded__content') && !$(e.target).closest('.news_expanded__content').length) {
+      $this = $(this);
+      $list = $this.closest('.news_single');
+      $this.animate({
+        opacity: 0
+      }, 350, function() {
+        $this.css({
+          opacity:''
+        });
+        $list.removeClass('is_expanded');
+        $('#wrap').removeClass('news_active');
+      });
+    }
+  });
+
 }); /* end of as page load scripts */
